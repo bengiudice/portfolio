@@ -6,7 +6,7 @@
             <div class="info-text">
                 <h1>
                     <p class="animate-text-1">School-taught Electrical Engineer,</p>
-                    <p class="text-2"> Self-taught software engineer</p>
+                    <p class="text-2"> Self-taught Software Engineer</p>
                     </h1>
             </div>
             <h2 class="subtitle">
