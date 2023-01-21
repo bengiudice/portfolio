@@ -1,3 +1,7 @@
+<svelte:head>
+    <title>Ben Giudice</title>
+</svelte:head>
+
 <div class="container">
     <div class="info">
         <div class="animate-background">
@@ -13,7 +17,7 @@
                 Someone hire me.
             </h2>
             <div style="color:black" class="scroll-button animate-scroll" tabindex="-1">
-                <a href="/about">Click me</a><div class="arrow">-></div>
+                <a href="/about">See More About Me</a><div class="arrow">-></div>
             </div>
 
         </div>
@@ -37,7 +41,7 @@
     }
     .container {
         max-width: 1400px;
-        margin: 190px 0 0 2.5rem;
+        margin: 190px 0 0 2rem;
     }
     .info h1 {
         font-size: 4rem;
