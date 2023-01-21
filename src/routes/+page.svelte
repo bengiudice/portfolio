@@ -1,83 +1,42 @@
 <svelte:head>
-    <title>Ben Giudice</title>
+    <title>About</title>
 </svelte:head>
 
-<div class="container">
-    <div class="info">
-        <div class="animate-background">
-            <div class="container info-container">
+<div class="main_container">
+    <section>
+        <div class="inner-container">
+            <h2 class="about-title">I'm Benjamin Giudice 👋</h2>
+            <div class="about-subtitle">
+                <p>
+                 An Electrical Engineer who's passionate about software.
+                </p>
+                <p>
+                    Feel free to reach out at <span class="info-text">hello@bengiudice.dev</span> !
+                </p>
             </div>
-            <div class="info-text">
-                <h1>
-                    <p class="animate-text-1">School-taught Electrical Engineer,</p>
-                    <p class="text-2"> Self-taught Software Engineer</p>
-                    </h1>
-            </div>
-            <h2 class="subtitle">
-                Someone hire me.
-            </h2>
-            <div style="color:black" class="scroll-button animate-scroll" tabindex="-1">
-                <a href="/about">See More About Me</a><div class="arrow">-></div>
-            </div>
-
         </div>
-    </div>
+    </section>
 </div>
-
-<div class="background-div"></div>
-
 <style>
-    .info {
-        text-align: center;
-        position: relative;
+    .main_container {
+        margin: 0 80px 0 65px;
     }
-    .info-container {
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: left;
-        align-items: start;
+    .about-title {
+        font-size: 4.2rem;
+        font-weight: bold;
+        margin-top: 11rem;
     }
-    .container {
-        max-width: 1400px;
-        margin: 190px 0 0 2rem;
+    .about-subtitle {
+        margin-top: -2rem;
     }
-    .info h1 {
-        font-size: 4rem;
-        margin: 0;
+    .about-subtitle >p {
+        width: 60%;
+        font-weight: normal;
+        font-size: 1rem;
+        line-height: 2rem;
     }
-    .info h1 p {
-        position: relative;
-        font: inherit;
-        margin: 0;
-        text-align: left;
-        line-height: 130%;
-        width: fit-content;
-        font-weight: 800;
-        letter-spacing: -0.03em;
-    }
-    .info h2 {
-        max-width: 65ch;
-        font-weight: 200;
-        margin-top: 0.50rem;
-    }
-    .background-div {
-        background-color: var(--background);
-        width: 100%;
-        height: 56vh;
-        margin: -155px auto;
-    }
-    .info .info-text {
-        position: relative;
-    }
-    .scroll-button {
-        display: flex;
-        border: none;
-        outline: none;
-        cursor: pointer;
-    }
-    .scroll-button .arrow {
-        margin-left: 0.50rem;
+    .info-text {
+        font-style: italic;
+        font-weight: bold;
     }
 </style>
